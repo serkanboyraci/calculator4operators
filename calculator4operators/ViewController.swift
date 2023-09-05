@@ -6,6 +6,8 @@
 //
 
 import UIKit
+    
+    // var result = 0 buraya yazarsak scope değişir.
 
 class ViewController: UIViewController {
     @IBOutlet var firstText: UITextField!
