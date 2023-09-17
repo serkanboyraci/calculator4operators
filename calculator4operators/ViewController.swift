@@ -21,7 +21,7 @@ class ViewController: UIViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view. Uygulama açılır açılmaz indirme vs. gibi durumları buraya yazmalıyız.
+        //  Uygulama açılır açılmaz indirme vs. gibi durumları buraya yazmalıyız.
     }
 
     @IBAction func toplamaTiklandi(_ sender: Any) {
