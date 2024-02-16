@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         //  Uygulama açılır açılmaz indirme vs. gibi durumları buraya yazmalıyız.
     }
 
+    // tum fonksiyolar if let ile yapildi.
     @IBAction func toplamaTiklandi(_ sender: Any) {
         
         /* ünlemlerle yazınca olmadı, çünkü eğer int yerine string girersek çöker. onun yerine if let kullanmamız gerekir.
