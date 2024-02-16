@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
 
     // tum fonksiyolar if let ile yapildi.
-    @IBAction func toplamaTiklandi(_ sender: Any) {
+    @IBAction func sumClicked(_ sender: Any) {
         
         /* ünlemlerle yazınca olmadı, çünkü eğer int yerine string girersek çöker. onun yerine if let kullanmamız gerekir.
         let firstNumber = Int(firstText.text!)!
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func cikarmaTiklandi(_ sender: Any) {
+    @IBAction func minusClicked(_ sender: Any) {
         
         if let firstNumber = Int(firstText.text!) {
             if let secondNumber = Int(secondText.text!) {
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func carpmaTiklandi(_ sender: Any) {
+    @IBAction func multiplyClicked(_ sender: Any) {
         if let firstNumber = Int(firstText.text!) {
             if let secondNumber = Int(secondText.text!) {
                 
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
         }
     }
 
-    @IBAction func bolmeTiklandi(_ sender: Any) {
+    @IBAction func divisionClicked(_ sender: Any) {
         
         if let firstNumber = Int(firstText.text!) {
             if let secondNumber = Int(secondText.text!) {
